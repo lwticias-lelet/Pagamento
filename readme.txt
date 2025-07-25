@@ -1,9 +1,10 @@
 
 
 pra rodar p codigo é so dar debug, ou se preferir pelo  comando  java PagamentoSimples
-) Desenvolva um sistema de processamento de pagamentos que deve suportar múltiplas formas de pagamento (Cartão de Crédito, PIX e Boleto). Para garantir
+- Desenvolva um sistema de processamento de pagamentos que deve suportar múltiplas formas de pagamento (Cartão de Crédito, PIX e Boleto). Para garantir
 flexibilidade e desacoplamento, utilize interface para definir o comportamento comum de cada método de pagamento. (7 pts)
-
+ Foi declarado a interface e as 3 classes usam este inertafcem e a implemntam ultilizando diferentes metodos respeitando a particularidade de cada e  no main
+ temos o desacoplamento pois não depende de classes especifiicas e há o polimorfismo.
 Requisitos:
 1. Crie uma interface MetodoPagamento com os seguintes métodos:
 *void processarPagamento (double valor) : Processa o pagamento
